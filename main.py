@@ -7,11 +7,11 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Initialize the bot
-bot = telegram.Bot(token="5912984150:AAHlp4-r0TX6x6dUmk-X6xUuLxJK44bsLY8")
+bot = telegram.Bot(token="")
 
 # Create an Updater object
 updater = Updater(
-    token="5912984150:AAHlp4-r0TX6x6dUmk-X6xUuLxJK44bsLY8", use_context=True)
+    token="", use_context=True)
 
 # Create a dispatcher object
 dispatcher = updater.dispatcher
